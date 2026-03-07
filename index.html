@@ -1,12 +1,72 @@
 <!DOCTYPE html>
 <html lang="en"> 
-    <head> 
+    <head>
         <meta charset="UTF-8">
         <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
         <title>selling of computers</title>
+        <style>
+        body{
+            font-family: Arial, sans-serif;
+            margin:0;
+            background-color:#f4f4f4;
+        }
+        header{
+            background:#222;
+            color:white;
+            padding:20px;
+            text-align:center;
+        }
+        nav{
+            background:#444;
+            padding:10px;
+            text align:center;
+        }
+        nav a{
+            color:white;
+            margin:15px;
+            text-decoration:none;
+            font-weight:bold;
+        }
+        .products{
+            display:flex;
+            justify-content:center;
+            gap:20px;
+            flex-wrap:wrap;
+            margin:40px;
+        }
+        .product{
+            background:white;
+            padding:15px;
+            border-radius:8px;
+            box-shadow:0 0 10px rgba(0,0,0,0.1);
+            text-align:center;
+        }
+        .products{
+            display:flex;
+            flex wrap:wrap;
+            justify-content:center;
+            gap:20px;
+        }
+        .product{
+            text-align:center;
+        }
+        .product img{
+            width:250px;
+        }
+        </style>
     </head>
-    <body> 
-        <h1>welcome to our computer store</h1>
+    <body>
+        <header>
+        <h1>computer store</h1>
+        </header>
+
+        <nav>
+            <a href="#">home</a>
+            <a href="#">products</a>
+            <a href="#">services</a>
+            <a href="#">contact</a>
+        </nav>
+        <h2>welcome to our computer store</h2>
         <p>here you can find a wide variety of computers and accessories that you can use for work at home or in the office</p>
         <h2>our products and services</h2>
         <ul>
@@ -21,15 +81,31 @@
             we also offer repair services and other technical support for our customers during the period of tryng to use our products
         </p>
     <a href="https://unsplash.com/s/photos/computer" target="_blank"><button>View Computer Photos on Unsplash</button></a>
-    <img src="computer.jpg.Jpeg" alt="computer-image-brand-new" width = "500" height = "300">
-    <h3 style="height: 20px;">our computers are high quality and reliable in all aspects and are built to last all day long
-        and yet if you have any problems with our products we will be here to help you and solve any problem you may face with our services and products 
-        so you can buy with confidence and trust in our products and services</h3> 
-    <img src="macbook.jpg.jpeg" alt="macbook-brand-new" width="500">
-    <h4>we have a wide range of products and services to meet all your needs</h4>
-    <img src="phones-accessories.jpg.jpeg" alt="phones-accessories" width="500">
-    <img src="gaming-consoles.jpg.jpeg" alt ="gaming-consoles" width="500">
-    <p>we are commited to providing the best products and services to our customers</p>
+<div class="products">
+
+    <img src="computer.jpg.Jpeg" alt="computer-image-brand-new" width = "300" height = "300">
+    <h3>computer</h3> 
+    <p>high quality computer</p>
+    </div>
+    
+    <div class="product">
+    <img src="macbook.jpg.jpeg" alt="macbook-brand-new" width="300">
+    <h3>macbook</h3>
+    <p>powerful laptop</p>
+    </div>
+
+    <div class="product">
+    <img src="phones-accessories.jpg.jpeg" alt="phones-accessories" width="300">
+    <h3>phone accessories</h3>
+    <p>best accessories</p>
+    </div>
+
+    <div class="product">
+    <img src="gaming-consoles.jpg.jpeg" alt ="gaming-consoles" width="300">
+    <p>enjoy gaming</p>
+    </div>
+
+</div>
         <ul> 
             <li>we have a wide range of products and services</li>
             <li>we offer competitive pricing and discounts for our computers</li>
